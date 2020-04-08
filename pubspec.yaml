@@ -1,0 +1,58 @@
+name: coronavirus_tracker
+description: Track COVID-19 pandemic.
+
+
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+#flutter 1.12.13
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  latlong: ^0.6.1
+  flutter_map: any
+  http: ^0.12.0+2
+  material_design_icons_flutter: ^4.0.5045
+  flutter_spinkit: "^4.0.0"
+  
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.7.3"
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/icon/ic_coronavirus_launcher.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/json/centroids.json
+    - assets/json/country_polylines.json
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/LobsterTwo/LobsterTwo-BoldItalic.ttf
+
+    - family: Lobster Regular
+      fonts:
+        - asset: assets/fonts/LobsterTwo/LobsterTwo-Regular.ttf
+
+    - family: Kameron
+      fonts:
+        - asset: assets/fonts/Kameron/Kameron-Regular.ttf
+
+    - family: OpenSans Light
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-Light.ttf
+
+    - family: OpenSans Italic
+      fonts:
+        - asset: assets/fonts/OpenSans/OpenSans-Italic.ttf
