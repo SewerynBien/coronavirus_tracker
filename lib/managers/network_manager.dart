@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:coronavirus_tracker/managers/handle_errors_manager.dart';
-import 'package:coronavirus_tracker/models/country.dart';
+import 'package:corona_tracker/managers/handle_errors_manager.dart';
+import 'package:corona_tracker/models/country.dart';
 import 'package:http/http.dart' as http;
 
 class NetworkManager {

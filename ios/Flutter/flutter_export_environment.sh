@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=C:\flutter"
-export "FLUTTER_APPLICATION_PATH=D:\Projects\Flutter\Development\VisualStudioCode\Examples\coronavirus_tracker"
+export "FLUTTER_APPLICATION_PATH=D:\Projects\Flutter\Development\VisualStudioCode\Examples\corona_tracker"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "SYMROOT=${SOURCE_ROOT}/../build\ios"

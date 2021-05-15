@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:coronavirus_tracker/pages/home.dart';
+import 'package:corona_tracker/pages/home.dart';
 
 void main() => runApp(MyApp());
 
