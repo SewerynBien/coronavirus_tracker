@@ -1,11 +1,11 @@
-import 'package:coronavirus_tracker/widgets/country_window.dart';
-import 'package:coronavirus_tracker/widgets/error_screen.dart';
-import 'package:coronavirus_tracker/widgets/loading_screen.dart';
+import 'package:corona_tracker/widgets/country_window.dart';
+import 'package:corona_tracker/widgets/error_screen.dart';
+import 'package:corona_tracker/widgets/loading_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong/latlong.dart';
-import 'package:coronavirus_tracker/managers/network_manager.dart';
-import 'package:coronavirus_tracker/models/country.dart';
+import 'package:corona_tracker/managers/network_manager.dart';
+import 'package:corona_tracker/models/country.dart';
 
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
